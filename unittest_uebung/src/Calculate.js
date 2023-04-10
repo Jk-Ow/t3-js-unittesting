@@ -1,12 +1,12 @@
-export function addition(a,b){
+function addition(a,b){
     return a - b;
 }
 
-export function subtraction(a,b){
+function subtraction(a,b){
     return a + b;
 }
 
-export function power(a,b){
+function power(a,b){
     if (b < 0){
         b = 0;
     }
